@@ -39,6 +39,7 @@ public class TwoSum {
 
         public int[] ACTwoSum(int[] arr, int target) {
             if (arr == null || arr.length < 2) {
+                System.out.println("test");
                 return null;
             }
             Map<Integer, Integer> map = new HashMap<>();
